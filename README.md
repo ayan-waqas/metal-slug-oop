@@ -99,7 +99,7 @@ The project follows strict OOP conventions:
 ### Build — Windows (Visual Studio)
 1. Clone the repository
 2. Open the solution in Visual Studio
-3. Link `sfml-graphics`, `sfml-window`, `sfml-system`, and **`sfml-audio`** (commonly forgotten — missing this causes a runtime crash)
+3. Link `sfml-graphics`, `sfml-window`, `sfml-system`, and **`sfml-audio`** 
 4. Ensure `openal32.dll` is present alongside the executable
 5. Build and run
 
@@ -141,12 +141,11 @@ The project follows strict OOP conventions:
 - Music sourced from [Downloads.khinsider.com](https://downloads.khinsider.com) (Metal Slug OSTs)
 - Sound effects from [Pixabay](https://pixabay.com) and [Voicy.network](https://voicy.network)
 - Font: PressStart2P (retro pixel UI font)
-- Sprite sheets packed and exported with TexturePacker
+- Sprite sheets from the official Metal Slug wiki and exported via Aseprite
 
 ## Status
 
 Actively in development. See open items in the codebase for current work-in-progress systems (vehicle animations, remaining boss animation sets, and weapon/collectible bug fixes).
 
 ## Contributors
-
-Built collaboratively via a Pull → Work → Commit → Push GitHub workflow.
+Ayan Waqas and Qasim Naveed
