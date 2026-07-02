@@ -4,18 +4,12 @@ A 2D run-and-gun game inspired by *Metal Slug*, built in C++ with SFML. Original
 
 ## Screenshots
 
-<p align="center">
-  <img src="screenshots/main-menu.png" width="80%" />
-</p>
+## Screenshots
 
-<p align="center">
-  <img src="screenshots/gameplay.PNG" width="45%" />
-  <img src="screenshots/boss.PNG" width="45%" />
-</p>
-
-<p align="center">
-  <img src="screenshots/fusion-companion.PNG" width="80%" />
-</p>
+![Main Menu](screenshots/main-menu.png)
+![Gameplay](screenshots/gameplay.PNG)
+![Boss Fight](screenshots/boss.PNG)
+![Fusion Companion](screenshots/fusion-companion.PNG)
 
 ## Features
 
