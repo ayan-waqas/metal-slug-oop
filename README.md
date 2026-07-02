@@ -2,6 +2,21 @@
 
 A 2D run-and-gun game inspired by *Metal Slug*, built in C++ with SFML. Originally an Object-Oriented Programming course project, expanded well beyond scope — the codebase emphasizes clean OOP design (polymorphism over type-switching, encapsulated state machines, composition-based systems) across roughly 140 classes, and now includes procedural world generation and a self-play AI mode trained with NEAT.
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/main-menu.png" width="80%" />
+</p>
+
+<p align="center">
+  <img src="screenshots/gameplay.PNG" width="45%" />
+  <img src="screenshots/boss.PNG" width="45%" />
+</p>
+
+<p align="center">
+  <img src="screenshots/fusion-companion.PNG" width="80%" />
+</p>
+
 ## Features
 
 **Playable Characters**
