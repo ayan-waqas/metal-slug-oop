@@ -104,6 +104,7 @@ The project follows strict OOP conventions:
 | `Levels.cpp` | Map generation (hand-authored and procedural), scrolling, and noise generation |
 | `Engines.cpp` | Game loop, state manager, main menu, and animation system |
 | `Managers.cpp` | `EntityManager` and `LevelManager` — spawning, lifecycle, and per-frame orchestration |
+| `NEAT.cpp` | Implementation of the 'NEAT' algorithm for Self-play mode |
 
 ## Getting Started
 
@@ -116,18 +117,8 @@ The project follows strict OOP conventions:
 2. Open the solution in Visual Studio
 3. Link `sfml-graphics`, `sfml-window`, `sfml-system`, and **`sfml-audio`** 
 4. Ensure `openal32.dll` is present alongside the executable
-5. Build and run
-
-### Build — Linux (CMake / CLion)
-1. Install SFML 2.6.1 (Arch: `pacman -S sfml`; note SFML 3.x breaks API compatibility with this project, pin to 2.6.1)
-2. Clone the repository
-3. ```bash
-   mkdir build && cd build
-   cmake ..
-   make
-   ./MetalSlug
-   ```
-4. Or open the project directly in CLion — it will pick up the existing `CMakeLists.txt`
+5. Move 'Sprites' and 'Sounds' folders to the solution folder.
+6. Build and run
 
 ### Controls
 
@@ -158,9 +149,6 @@ The project follows strict OOP conventions:
 - Font: PressStart2P (retro pixel UI font)
 - Sprite sheets from the official Metal Slug wiki and exported via Aseprite
 
-## Status
-
-Actively in development. See open items in the codebase for current work-in-progress systems (vehicle animations, remaining boss animation sets, and weapon/collectible bug fixes).
 
 ## Contributors
 Ayan Waqas and Qasim Naveed
