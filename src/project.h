@@ -20,11 +20,12 @@ extern float terminal_Velocity;
 extern Font hudFont;
 extern Font scoreFont;
 extern float deltaTime;
+
+//sound system added after submission
 extern sf::Music bgMusic;
 extern sf::SoundBuffer sfxBuffers[20];
 extern sf::Sound sfxSounds[20];
 
-// Simple enum for clarity
 enum SFX {
     SFX_SHOOT = 0,
     SFX_EXPLOSION,
